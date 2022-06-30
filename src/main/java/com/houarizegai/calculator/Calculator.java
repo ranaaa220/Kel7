@@ -119,7 +119,7 @@ public class Calculator {
                         inText.setText(String.valueOf(val));
                     }
                     opt = '%';
-                    go = false;
+                    go = true;
                     addWrite = false;
                 }
         });
