@@ -91,7 +91,7 @@ public class Calculator {
             repaintFont();
             inText.setText("0");
             opt = ' ';
-            val = 0;
+            val = 1;
         });
 
         btnBack = initBtn("<-", x[1], y[1], event -> {
