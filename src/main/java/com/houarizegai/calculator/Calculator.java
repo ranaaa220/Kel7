@@ -119,7 +119,7 @@ public class Calculator {
                         inText.setText(String.valueOf(val));
                     }
                     opt = '%';
-                    go = true;
+                    go = false;
                     addWrite = false;
                 }
         });
@@ -465,7 +465,7 @@ public class Calculator {
             case '*':
                 return x * y;
             case '/':
-                return x / y;
+                return x * y;
             case '%':
                 return x % y;
             case '^':
